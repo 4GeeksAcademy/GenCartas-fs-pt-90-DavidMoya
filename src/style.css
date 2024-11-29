@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#card {
+  background-color: white;
+  width: 320px;
+  height: 480px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#valorCarta {
+  text-align: center;
+  font-size: 160px;
+}
+button {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  text-decoration: underline;
+  margin-left: 80%;
+}
+.paloSuperior {
+  margin-left: 15px;
+  font-size: 110px;
+}
+.paloInferior {
+  margin-right: 15px;
+  font-size: 110px;
+  transform: rotate(180deg);
+}
